@@ -3,109 +3,109 @@
     {
       "widgets": [
         {
-          "label": "Default"
+          "label": "افتراضي"
         }
       ],
-      "label": "البطاقات",
-      "entity": "بطاقة",
+      "label": "بطاقات",
+      "entity": "card",
       "field": {
-        "label": "البطاقة",
+        "label": "بطاقة",
         "fields": [
           {
-            "label": "الصورة"
+            "label": "صورة"
           },
           {
-            "label": "Matching Image",
-            "description": "An optional image to match against instead of using two cards with the same image."
+            "label": "صورة مطابقة",
+            "description": "صورة اختيارية للمطابقة بدلاً من استخدام بطاقتين لهما نفس الصورة"
           },
           {
-            "label": "الوصف",
-            "description": "نص قصير يتم عرضه مرة واحدة علي اثنين من البطاقات متساوية"
+            "label": "وصف",
+            "description": "نص قصير اختياري سينبثق بمجرد العثور على البطاقتين المطابقتين."
           },
           {
-            "label": "Alternative text for Matching Image",
-            "description": "Describe what can be seen in the photo. The text is read by text-to-speech tools needed by visually impaired users."
+            "label": "نص بديل لمطابقة الصورة",
+            "description": "وصف ما يمكن رؤيته في الصورة. تتم قراءة النص باستخدام أدوات تحويل النص إلى كلام التي يحتاجها المستخدمون ضعاف البصر."
           },
           {
-            "label": "Description",
-            "description": "An optional short text that will pop up once the two matching cards are found."
+            "label": "وصف",
+            "description": "نص قصير اختياري سينبثق بمجرد العثور على البطاقتين المطابقتين."
           }
         ]
       }
     },
     {
       "label": "Behavioural settings",
-      "description": "These options will let you control how the game behaves.",
+      "description": "ستتيح لك هذه الخيارات التحكم في سلوك اللعبة.",
       "fields": [
         {
-          "label": "Position the cards in a square",
-          "description": "Will try to match the number of columns and rows when laying out the cards. Afterward, the cards will be scaled to fit the container."
+          "label": "ضع البطاقات في مربع",
+          "description": "سيحاول مطابقة عدد الأعمدة والصفوف عند وضع البطاقات. بعد ذلك ، سيتم تحجيم البطاقات لتناسب الحاوية."
         },
         {
-          "label": "Number of cards to use",
-          "description": "Setting this to a number greater than 2 will make the game pick random cards from the list of cards."
+          "label": "عدد البطاقات المستخدمة",
+          "description": "تعيين هذا إلى رقم أكبر من 2 سيجعل اللعبة عبارة عن اختيار بطاقات عشوائية من قائمة البطاقات."
         },
         {
-          "label": "Add button for retrying when the game is over"
+          "label": "إضافة زر لإعادة المحاولة عندما تنتهي اللعبة"
         }
       ]
     },
     {
-      "label": "Look and feel",
-      "description": "Control the visuals of the game.",
+      "label": "انظر وادرك",
+      "description": "السيطرة على صور اللعبة.",
       "fields": [
         {
-          "label": "Theme Color",
-          "description": "Choose a color to create a theme for your card game.",
+          "label": "لون المظهر",
+          "description": "اختر لونًا لإنشاء مظهر بطاقاتك في اللعبة.",
           "default": "#909090"
         },
         {
-          "label": "Card Back",
-          "description": "Use a custom back for your cards."
+          "label": "خلفية البطاقة",
+          "description": "استخدم خلفية مخصصة لبطاقاتك"
         }
       ]
     },
     {
-      "label": "الأقلمة",
+      "label": "الموقع",
       "fields": [
         {
-          "label": "نص تدوير البطاقة",
+          "label": "نص تحول البطاقة",
           "default": "Card turns"
         },
         {
-          "label": "نص التوقيت الزمني",
+          "label": "نص استغراق الوقت",
           "default": "Time spent"
         },
         {
-          "label": "نص الملاحظات",
+          "label": "نص ردود الفعل",
           "default": "Good work!"
         },
         {
-          "label": "Try again button text",
-          "default": "Reset"
+          "label": "نص زر حاول مرة اخرى",
+          "default": "Try again?"
         },
         {
-          "label": "Close button label",
+          "label": "تسمية زر الاغلاق",
           "default": "Close"
         },
         {
-          "label": "Game label",
+          "label": "تسمية اللعبة",
           "default": "Memory Game. Find the matching cards."
         },
         {
-          "label": "Game finished label",
+          "label": "تسمية لعبة منتهية",
           "default": "All of the cards have been found."
         },
         {
-          "label": "Card indexing label",
+          "label": "تسمية فهرسة البطاقات",
           "default": "Card %num:"
         },
         {
-          "label": "Card unturned label",
+          "label": "تسمية البطاقات غير المتحولة",
           "default": "Unturned."
         },
         {
-          "label": "Card matched label",
+          "label": "تسمية البطاقة المطابقة",
           "default": "Match found."
         }
       ]
